@@ -33,9 +33,6 @@ select count(id) from client_credentials ;
 select version();
 
 -- SQL script used to create the sql user credentials
--- Connect to the PostgreSQL database
-\c clientdb;
-
 -- Create a new user with a password
 CREATE USER peteryang WITH PASSWORD 'password1234';
 
