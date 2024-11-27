@@ -9,7 +9,7 @@
 # ![image](https://github.com/user-attachments/assets/c60edb47-eefb-4e2b-bc28-ea7e6d39ceda)
 # Checked raw data in Notepad++, we can see format of password is not showing properly. See screenshot below:
 # ![image](https://github.com/user-attachments/assets/989d0890-2e9c-4f88-8ba8-c57143c85d20)
-# Solution: In this case, I cannot load data into PostgreSQL directly by using the raw data file, I need to clean data first and then load cleaned data into PostgreSQL.
+# Solution: In this case, I cannot load data into PostgreSQL directly by using MOCK_DATA (3).csv, I need to clean data first and then load MOCK_DATA_Cleaned.csv into PostgreSQL.
 # In my data cleaning part of Python code, I used quoting = 1 to fix this issue. See screenshot below:
 ![image](https://github.com/user-attachments/assets/fdaf9e09-f656-4d09-802b-f6874b8cd5dd)
 
